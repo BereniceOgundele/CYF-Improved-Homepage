@@ -1,0 +1,74 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+body {
+  background: #9e9e9e;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  background-color: #c7ddcc;
+  text-align: center;
+  position: fixed;
+  transition: 1s;
+  width: 100%;
+  height: 40px;
+  padding: 14px 16px;
+}
+
+.c-site-header {
+  padding: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+.page-link {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#home {
+  background-attachment: fixed;
+  margin: 5px;
+  padding: 25px 25px;
+  text-align: center;
+  min-height: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+#aboutme {
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+  height: 150vh;
+  box-sizing: border-box;
+  background-color: #f4e1d2;
+}
+
+#youtubevideo {
+  background-attachment: fixed;
+  padding: 70px;
+  text-align: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #b7d7e8;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
