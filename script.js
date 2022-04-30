@@ -1,3 +1,26 @@
+let element_list = document.getElementById('list');
+let new_li = document.createElement('li');
+let new_a = document.createElement('a');
+new_a.setAttribute("href", 'https://www.comebeforewinter.org');
+new_a.innerText = 'come before winter';
+
+new_li.appendChild(new_a);
+
+element_list.appendChild(new_li);
+let element_list2 = document.getElementById('list');
+let new_li2 = document.createElement('li');
+let new_a2 = document.createElement('a');
+new_a2.setAttribute("href", 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiJ2sTpkLr3AhWJrO0KHZI9D9MYABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESbeD2ybiCgnMXXdkbAUmxDMiRNRbfks2A-RjOCI9BqI5Us1eI0X8hKC4orlkVXRTz4eqbQsQ8CbYwfrP1HhH7M41sdeuoQFS_D64ephGDo5zetHDflXAObWqxJ6CmcHs9dD19t1vU_OUsqASjh9Q&sig=AOD64_1DjMrB8IL_Z6G7PeMnft3B_bLCUw&q&adurl&ved=2ahUKEwiTk77pkLr3AhVjQkEAHYYLCfMQ0Qx6BAgDEAE');
+new_a2.innerText = 'coursera';
+
+new_li2.appendChild(new_a2);
+
+element_list2.appendChild(new_li2);
+
+
+
+
+
 /* =================
   TESTS, LOOK AT THESE
   Reading tests will always help you discover your requirements.
