@@ -1,3 +1,59 @@
+//shopping cart
+var carttotals;
+
+
+carttotals = [];
+
+
+document.getElementById('cartitem1').addEventListener('click', (event) => {
+  let element_shoppinglist = document.getElementById('shoppinglist');
+  let new_li = document.createElement('li');
+  new_li.innerText = 'Coding Tutoring R ';
+  let new_span = document.createElement('span');
+  new_span.innerText = 75;
+
+  new_li.appendChild(new_span);
+
+  element_shoppinglist.appendChild(new_li);
+  carttotals.push(75);
+  let element_total = document.getElementById('total');
+  element_total.innerText = carttotals.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('cartitem2').addEventListener('click', (event) => {
+  let element_shoppinglist2 = document.getElementById('shoppinglist');
+  let new_li2 = document.createElement('li');
+  new_li2.innerText = 'Checking HTML Code R ';
+  let new_span2 = document.createElement('span');
+  new_span2.innerText = 100;
+
+  new_li2.appendChild(new_span2);
+
+  element_shoppinglist2.appendChild(new_li2);
+  carttotals.push(100);
+  let element_total2 = document.getElementById('total');
+  element_total2.innerText = carttotals.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('cartitem3').addEventListener('click', (event) => {
+  let element_shoppinglist3 = document.getElementById('shoppinglist');
+  let new_li3 = document.createElement('li');
+  new_li3.innerText = 'Web Development Services R ';
+  let new_span3 = document.createElement('span');
+  new_span3.innerText = 150;
+
+  new_li3.appendChild(new_span3);
+
+  element_shoppinglist3.appendChild(new_li3);
+  carttotals.push(150);
+  let element_total3 = document.getElementById('total');
+  element_total3.innerText = carttotals.reduce((a,b) => a+b, 0);
+
+});
+
+//list of links
 let element_list = document.getElementById('list');
 let new_li = document.createElement('li');
 let new_a = document.createElement('a');
